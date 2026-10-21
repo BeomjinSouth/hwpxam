@@ -1,0 +1,82 @@
+{
+  "package": "hwpxam",
+  "version": "2.0.4",
+  "skills": [
+    "teacher-exam-hwpx"
+  ],
+  "closing_line": "⭐ 이 스킬이 도움이 됐다면 GitHub에서 스타 하나 부탁드려요 → https://github.com/BeomjinSouth/hwpxam",
+  "files": [
+    {
+      "path": "INSTALL.md",
+      "sha256": "0f576cada13138365a50664dc52b31858700b7d814f90e8dbe7b4496029ec9fc"
+    },
+    {
+      "path": "README.md",
+      "sha256": "1ca7a3899a7e26a192be1041c145133316262605d697b9f4f95c23ed419c1c45"
+    },
+    {
+      "path": "install.ps1",
+      "sha256": "aef073e53ea831fff079ad08b27c84ab867503be12bd6d94855e2d879b9ef8ed"
+    },
+    {
+      "path": "teacher-exam-hwpx/SKILL.md",
+      "sha256": "d4cf44770fa1288b035c680e2a172f859db1c5e5cec514d9f1da685fa76db7ee"
+    },
+    {
+      "path": "teacher-exam-hwpx/agents/openai.yaml",
+      "sha256": "265f895333ec417609d6f2ff20c25afa1606ea9514955fddb4014864269422f6"
+    },
+    {
+      "path": "teacher-exam-hwpx/assets/condition-box.xml",
+      "sha256": "2f76026393f5e711fa30dc59a69ae64ec5c9a8b00f1c53ec6e7ba0f728a28e00"
+    },
+    {
+      "path": "teacher-exam-hwpx/references/검수와-전달.md",
+      "sha256": "728166fbb41eb9d0f1acd709e1ba6313beb9c868f88c1e626679ed46c0e7462f"
+    },
+    {
+      "path": "teacher-exam-hwpx/references/문항-설계와-검토.md",
+      "sha256": "7c545007b9cac0d4e4f2220e85c0d660aa918a2bff03988ca7bbee93c3ac642a"
+    },
+    {
+      "path": "teacher-exam-hwpx/references/수식-코드와-PDF그림.md",
+      "sha256": "15d9eff3fcd01c545912e538c74ced6b88e2d6b0bd124777bf9bebecc5f7b56d"
+    },
+    {
+      "path": "teacher-exam-hwpx/references/양식-보존과-실행.md",
+      "sha256": "0b2fa0ce57d8944b2b72559849986ce34de072ef0a49675d9838d9a07feff811"
+    },
+    {
+      "path": "teacher-exam-hwpx/references/원고-형식.md",
+      "sha256": "03e2cf3fb6480c2ac89f9646d46545cbe37af8381da69fc77c835f650d14e914"
+    },
+    {
+      "path": "teacher-exam-hwpx/references/처음부터-끝까지-실행.md",
+      "sha256": "2a27881b9a3da18fff701f6fbfe5c525ef1cbb537424418cb27db46c8f5649b2"
+    },
+    {
+      "path": "teacher-exam-hwpx/references/해설-조건상자와-코드.md",
+      "sha256": "1c351fc04f6f8316841554ab3f9d9a7237548e1fa46a4239ef698b42c0fca7db"
+    },
+    {
+      "path": "teacher-exam-hwpx/scripts/exam_check.py",
+      "sha256": "a79b196afdbe762ecd4e029df0616ca7ddec0701925312a1889caeab06bd24a5"
+    },
+    {
+      "path": "teacher-exam-hwpx/scripts/exam_pipeline.py",
+      "sha256": "941555e9fe1f26568b455363f74c3ff0ff2cd5a5632128979992d0be39c85e59"
+    },
+    {
+      "path": "teacher-exam-hwpx/scripts/hancom_fill.ps1",
+      "sha256": "7bdd80584ea6eeda7e3b112d308e3010ca8c5948b83bca9c031883e2184772ce"
+    },
+    {
+      "path": "teacher-exam-hwpx/scripts/pdf_crop.ps1",
+      "sha256": "3c605c590d8ed23cff58425b87be14966c3effab649f58b1b1058658981d5d23"
+    },
+    {
+      "path": "teacher-exam-hwpx/scripts/wrap_boxes.py",
+      "sha256": "b14cfb4b939026bb96011ea43eb923ac75fcc3650a7bb5439dfaa7e6b3c36297"
+    }
+  ]
+}
