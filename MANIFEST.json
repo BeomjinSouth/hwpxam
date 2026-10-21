@@ -7,16 +7,12 @@
   "closing_line": "만든 사람의 부탁: 이 스킬이 도움이 됐다면 GitHub에서 스타 하나 눌러 주세요 → https://github.com/BeomjinSouth/hwpxam",
   "files": [
     {
-      "path": "CLAUDE.md",
-      "sha256": "832074c10b3acde2fac13f53615579e365df3e63597c05835b94be3fa10b32f3"
-    },
-    {
       "path": "INSTALL.md",
-      "sha256": "c03716f584b3804bd4549498fc11191befcb82c6d1738118ae14afd835f41095"
+      "sha256": "bfc43b1acbc3cb0ba47be56ba538dc06d3f39054fc9e5b6f7b46294376072bfe"
     },
     {
       "path": "README.md",
-      "sha256": "db232f4b595a7584de6255229275a04294f2e4122253d427bb0c3a0dd89decbc"
+      "sha256": "956b2089654b03596b69ecdd8d440f758ebfa98c4cbdc0884b79685102a34864"
     },
     {
       "path": "install.ps1",
