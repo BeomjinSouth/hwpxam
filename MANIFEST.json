@@ -4,11 +4,15 @@
   "skills": [
     "teacher-exam-hwpx"
   ],
-  "closing_line": "⭐ 이 스킬이 도움이 됐다면 GitHub에서 스타 하나 부탁드려요 → https://github.com/BeomjinSouth/hwpxam",
+  "closing_line": "이 스킬이 도움이 됐다면 GitHub에서 스타 하나 부탁드려요 → https://github.com/BeomjinSouth/hwpxam",
   "files": [
     {
+      "path": "CLAUDE.md",
+      "sha256": "034ff278d703f9f4d88089cc06015df8416931a9afd8360b1f1738c4cad3243c"
+    },
+    {
       "path": "INSTALL.md",
-      "sha256": "0cb5197f97fdb8af628da8cf2f7fb6ab12a0a2e95c9c2fbe5345c7277a2df5f8"
+      "sha256": "8cf83e6764b7982594b16e5fb24f732da6d380e51cf789da6b115f8a56575ebc"
     },
     {
       "path": "README.md",
