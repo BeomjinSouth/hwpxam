@@ -45,9 +45,9 @@ ZIP에는 학교 양식·개인정보·교과서·기출 원문이 없습니다.
 powershell -NoProfile -ExecutionPolicy Bypass -File "받은 폴더/install.ps1"
 ```
 
-실행 정책은 해당 프로세스에만 적용됩니다. 설치 자체는 PowerShell 7에서도 실행할 수 있습니다. 한글 편집·PDF 렌더링 도구는 스킬이 지정한 Windows PowerShell로 실행합니다.
+옵션을 붙이지 않고 그대로 실행합니다. 지금 쓰는 도구가 Codex이든 Claude Code이든 두 도구에 모두 설치해야 교사가 다른 도구에서도 바로 쓸 수 있습니다. `-Target`과 `-SkillsRoot`는 교사가 직접 요청했을 때만 씁니다. `CODEX_HOME` 같은 환경변수를 보고 설치 위치를 바꾸지 않습니다. 실행 정책은 해당 프로세스에만 적용됩니다. 설치 자체는 PowerShell 7에서도 실행할 수 있습니다. 한글 편집·PDF 렌더링 도구는 스킬이 지정한 Windows PowerShell로 실행합니다.
 
-4. 설치 도구는 MANIFEST의 파일 목록과 SHA-256을 검사한 뒤 현재 사용자의 Codex용 `.agents/skills/teacher-exam-hwpx`와 Claude Code용 `.claude/skills/teacher-exam-hwpx`에 함께 설치합니다. 한쪽만 설치하려면 `-Target codex` 또는 `-Target claude`를 붙입니다. 경로는 실행 중인 사용자 홈에서 구하며 배포자의 PC 경로를 사용하지 않습니다. 교사가 다른 스킬 폴더를 지정하면 `-SkillsRoot "지정한 스킬 폴더"`를 사용합니다.
+4. 설치 도구는 MANIFEST의 파일 목록과 SHA-256을 검사한 뒤 현재 사용자의 Codex용 `.agents/skills/teacher-exam-hwpx`와 Claude Code용 `.claude/skills/teacher-exam-hwpx`에 함께 설치합니다. 교사가 한쪽만 설치해 달라고 하면 `-Target codex` 또는 `-Target claude`를 붙입니다. 경로는 실행 중인 사용자 홈에서 구하며 배포자의 PC 경로를 사용하지 않습니다. 교사가 다른 스킬 폴더를 지정하면 `-SkillsRoot "지정한 스킬 폴더"`를 사용합니다.
 5. 결과의 `status`를 확인합니다.
    - `INSTALLED`, `ALREADY_INSTALLED`, `UPGRADED`: 설치 완료입니다.
    - `PRESERVED_DIFFERENT`: 내용이 다른 기존 설치본을 덮어쓰지 않고 보존했습니다. 차이와 보존된 위치를 알리고, 교사가 바꾸기를 원하면 `-Upgrade`를 붙여 다시 실행합니다. 기존 설치본은 `.teacher-exam-hwpx/backups`로 옮겨 보관합니다.
