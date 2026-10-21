@@ -8,15 +8,15 @@
   "files": [
     {
       "path": "INSTALL.md",
-      "sha256": "815366c334c82a64034d1106d0cf8958793a94d54a7355a6e1c900a945ffe3e7"
+      "sha256": "0cb5197f97fdb8af628da8cf2f7fb6ab12a0a2e95c9c2fbe5345c7277a2df5f8"
     },
     {
       "path": "README.md",
-      "sha256": "1ca7a3899a7e26a192be1041c145133316262605d697b9f4f95c23ed419c1c45"
+      "sha256": "ea30f0cf8bb4ee57f67704ba4ae77f550bd4ecb9fad3ee8027ac010f6a014d51"
     },
     {
       "path": "install.ps1",
-      "sha256": "aef073e53ea831fff079ad08b27c84ab867503be12bd6d94855e2d879b9ef8ed"
+      "sha256": "625a8e4cb6cb2dcc0159e9d961205ca85eeb3382cf9967d31e291795639041fb"
     },
     {
       "path": "teacher-exam-hwpx/SKILL.md",
